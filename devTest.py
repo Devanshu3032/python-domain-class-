@@ -26,4 +26,4 @@ for i in range(5):
         else:  
             print(' ', end=' ')  
             
-    print()  # Move to the next row
+    print()

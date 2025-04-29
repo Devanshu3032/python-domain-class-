@@ -4,14 +4,11 @@ class SlidingWindowMaximum{
         int  k = 3 ;
         int max = Integer.MIN_VALUE;
         for (int i = 0; i < arr.length; i++) {
-            for (int j = 0; j < j+3; j+= 3) {
+            for (int j = 0; j < j+3; j++) {
                 if(arr[j] > max){
-                    max = arr[j];
-                   
-                    
-                 }System.out.println(max+ " ");
+                    max = arr[j]; }
             if(j+3 > arr.length){ break;}}
-        
+        System.out.print(max +" ");
     }
 }
 }
